@@ -1,3 +1,3 @@
-![Title](head_coin_exo_.png)
+![Title](banner_exo_coin.png)
   
 # Under Constructions 🚧
