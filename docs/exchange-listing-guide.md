@@ -51,18 +51,14 @@
 	*  [Social Media Links](#Social-Media-Links)
 	*  [Exohood Support desk & FAQ's](#Exohood-Support-desk-&-FAQ's)
 
-# About Exohood
-Exohood has coined the phrase 'enablement cryptocurrency' as it is going to enable a new 3 trillion-dollar market (Price Waterhouse Coopers predicts this market to be as large as USd 3 trillion in their 2017 Global Fintech Report) by allowing over 350m smartphone users in the developing world to enter the digital market for the first time.
-
-With immediate benefits to the mobile operators in those regions, including meaningful transactional cost savings, there are operators who could take us to well over 100 million users and many more operators in negotiation.
-
-Our instant cryptocurrency payment system gives users instant payment notifications on their smartphone.
+# About ExoCoin
+Cryptocurrency based on mobile technology.
 
 # Blockchain Technical Background
-The Exohood blockchain is a UTXO-model blockchain that was originally based on the Monero/CryptoNote open-source projects, but we have since removed all the privacy features. Starting from our V10 blockchain update, transactions and adresses are completely public in a very similar manner to that of Bitcoin's. That puts us in line with regulators around the globe.
+The Exohood blockchain is a UTXO-model blockchain that was originally based on the Monero/CryptoNote open-source projects, but we have since removed all the privacy features. Starting from our blockchain update, transactions and adresses are completely public in a very similar manner to that of Bitcoin's. That puts us in line with regulators around the globe.
 
 ## The CryptoNote Protocol
-Exohood blockchain was built on top of the CryptoNote Protocol, an open-source technology with advanced mathematical and cryptograph features to empower end-users with the best blockchain technology currently available.
+Exohood blockchain is building on top of the CryptoNote Protocol, an open-source technology with advanced mathematical and cryptograph features to empower end-users with the best blockchain technology currently available.
 
 ### double-Spending Proof
 We have a database driven UTXO book-keeping, meaning that nobody is able to spend the same exo twice
@@ -71,7 +67,7 @@ We have a database driven UTXO book-keeping, meaning that nobody is able to spen
 Our block validation is permissioned, and those entities that are permissioned to validate blocks are contracted and monitored based on both their responsibility using the proceeds of their validations, and their good natured participation in our network. We have a number of charities who are using the proceeds to help developing nations and other people in need.
 
 ## Exohood Blockchain
-Although Exohood was forked from Monero project on November of 2017, we have been implementing several unique and essential changes to the protocol, being steps closer to become the mass adopted mobile cryptocurrency.
+Although Exohood is building and forked from Monero project and we have been implementing several unique and essential changes to the protocol, being steps closer to become the mass adopted mobile cryptocurrency.
 
 Some of the major features we have introduced enables higher transaction throughput in the blockchain and KYC & AML (Know Your Customer & Anti-Money Laundry) processes through the removal of all of the privacy features present in Monero.
 
