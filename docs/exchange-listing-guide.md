@@ -1,5 +1,5 @@
 <p  align="center">
-	<img  src="image">
+	<img  src="zelg.png">
 </p>
 
 *  [About Exohood](#About-Exohood)
@@ -52,7 +52,13 @@
 	*  [Exohood Support desk & FAQ's](#Exohood-Support-desk-&-FAQ's)
 
 # About ExoCoin
-Cryptocurrency based on mobile technology.
+ExoCoin is an mobile miner puts a small amount of EXO into the hands of users every day, providing market liquidity and driving viral growth. We building a global technology that allows instant cryptocurrency payments. The ability to SPEND EXO instantly is only half the equation. We are developing an API that will allow easy integration to ACCEPT EXO instantly. This means it will be simple to allow an ecommerce system to give instant check out, and even allow easy integration into ePOS systems (electronic point of sales systems or tills).
+
+The core of ExoCoin is open source and completely free to use without restrictions. We introduced some fairly radical changes to the cryptonote blockchain, those consisting on a new consensus algorithm we’ve coined as Proof of Responsibility and change from a full permission-less blockchain to a Moderated Blockchain.
+
+A Moderated Blockchain, powered by the Proof of Responsibility consensus algorithm, allow Exohood's to have more control over the blockchain while keeping a good degree of decentralization. This ultimately improves our security while making the blockchain’s commercial & economic model more attractive. Besides these main features, we’ve included a few minor changes that contributes to the blockchain’s operability and scalability.
+
+In 2023, in order to comply with regulations and remove obstacles to the growth of the project, we migrated away from blockchain privacy with our V2 fork, and opted for a completely transparent and public blockchain.
 
 # Blockchain Technical Background
 The Exohood blockchain is a UTXO-model blockchain that was originally based on the Monero/CryptoNote open-source projects, but we have since removed all the privacy features. Starting from our blockchain update, transactions and adresses are completely public in a very similar manner to that of Bitcoin's. That puts us in line with regulators around the globe.
