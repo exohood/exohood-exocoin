@@ -52,30 +52,30 @@
 	*  [Exohood Support desk & FAQ's](#Exohood-Support-desk-&-FAQ's)
 
 # About ExoCoin
-ExoCoin is an mobile miner puts a small amount of EXO into the hands of users every day, providing market liquidity and driving viral growth. We building a global technology that allows instant cryptocurrency payments. The ability to SPEND EXO instantly is only half the equation. We are developing an API that will allow easy integration to ACCEPT EXO instantly. This means it will be simple to allow an ecommerce system to give instant check out, and even allow easy integration into ePOS systems (electronic point of sales systems or tills).
+ExoCoin is a mobile miner that puts a small amount of EXO into the hands of users every day, providing market liquidity and driving viral growth. We building a global technology that allows instant cryptocurrency payments. The ability to SPEND EXO instantly is only half the equation. We are developing an API that will immediately enable easy integration to ACCEPT EXO. This means it will be simple to allow an eCommerce system to give instant check out and even help easy integration into ePOS systems (electronic point of sales systems or tills).
 
-The core of ExoCoin is open source and completely free to use without restrictions. We introduced some fairly radical changes to the cryptonote blockchain, those consisting on a new consensus algorithm we’ve coined as Proof of Responsibility and change from a full permission-less blockchain to a Moderated Blockchain.
+The core of ExoCoin is open source and free to use without restrictions. We introduced some fairly radical changes to the cryptonote blockchain, consisting of a new consensus algorithm we’ve coined as Proof of Responsibility and from an entire permission-less blockchain to a Moderated Blockchain.
 
 A Moderated Blockchain, powered by the Proof of Responsibility consensus algorithm, allow Exohood's to have more control over the blockchain while keeping a good degree of decentralization. This ultimately improves our security while making the blockchain’s commercial & economic model more attractive. Besides these main features, we’ve included a few minor changes that contributes to the blockchain’s operability and scalability.
 
 In 2023, in order to comply with regulations and remove obstacles to the growth of the project, we migrated away from blockchain privacy with our V2 fork, and opted for a completely transparent and public blockchain.
 
 # Blockchain Technical Background
-The Exohood blockchain is a UTXO-model blockchain that was originally based on the Monero/CryptoNote open-source projects, but we have since removed all the privacy features. Starting from our blockchain update, transactions and adresses are completely public in a very similar manner to that of Bitcoin's. That puts us in line with regulators around the globe.
+The Exohood blockchain is a UTXO-model blockchain that was originally based on the Monero/CryptoNote open-source projects, but we have since removed all the privacy features. Starting from our blockchain update, transactions and addresses are entirely public in a very similar manner to that of Bitcoin's. That puts us in line with regulators around the world.
 
 ## The CryptoNote Protocol
-Exohood blockchain is building on top of the CryptoNote Protocol, an open-source technology with advanced mathematical and cryptograph features to empower end-users with the best blockchain technology currently available.
+Exohood blockchain is building on top of the CryptoNote Protocol, an open-source technology with advanced mathematical and cryptography features to empower end-users with the best available blockchain technology.
 
 ### double-Spending Proof
-We have a database driven UTXO book-keeping, meaning that nobody is able to spend the same exo twice
+We have a database-driven UTXO book-keeping, meaning nobody can spend the same EXO twice.
 
 ### Proof of Responsibility
-Our block validation is permissioned, and those entities that are permissioned to validate blocks are contracted and monitored based on both their responsibility using the proceeds of their validations, and their good natured participation in our network. We have a number of charities who are using the proceeds to help developing nations and other people in need.
+Our block validation is permissioned, and those entities that are permissioned to validate blocks are contracted and monitored based on both their responsibility for using the proceeds of their validations and their good-natured participation in our network. 
 
 ## Exohood Blockchain
-Although Exohood is building and forked from Monero project and we have been implementing several unique and essential changes to the protocol, being steps closer to become the mass adopted mobile cryptocurrency.
+Although Exohood is building and forked from the Monero project and we have been implementing several unique and essential changes to the protocol, stepping closer to becoming the mass-adopted mobile cryptocurrency.
 
-Some of the major features we have introduced enables higher transaction throughput in the blockchain and KYC & AML (Know Your Customer & Anti-Money Laundry) processes through the removal of all of the privacy features present in Monero.
+Some of the major features we have introduced enable higher transaction throughput in the blockchain and KYC & AML (Know Your Customer & Anti-Money Laundry) processes through removing all of the privacy feature in Monero.
 
 We recommend reading the [**daemon RPC**](https://github.com/Exohood/exohood-coin/blob/develop/docs/daemon-rpc-documentation.md) & [**Wallet RPC**](https://github.com/Exohood/exohood-coin/blob/develop/docs/wallet-rpc-documentation.md) documentation before integrating Exohood into your exchange.
 
