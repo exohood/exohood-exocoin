@@ -1,0 +1,101 @@
+/*
+/***
+*     ______           __                    __
+*    / _____  ______  / /_  ____  ____  ____/ /
+*   / __/ | |/_/ __ \/ __ \/ __ \/ __ \/ __  / 
+*  / /____>  </ /_/ / / / / /_/ / /_/ / /_/ /  
+* /_____/_/|_|\____/_/ /_/\____/\____/\__,_/   
+*                                             
+*   
+*    
+* https://www.exohood.com
+*
+* MIT License
+* ===========
+*
+* Copyright (c) 2020 - 2022 Exohood Protocol
+*
+* This program is free software: you can redistribute it and/or modify
+* it under the terms of the GNU Lesser General Public License as published by
+* the Free Software Foundation, either version 3 of the License, or
+* (at your option) any later version.
+*
+* This program is distributed in the hope that it will be useful,
+* but WITHOUT ANY WARRANTY; without even the implied warranty of
+* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+* GNU Lesser General Public License for more details.
+*
+* You should have received a copy of the GNU Lesser General Public License
+* along with this program. If not, see <http://www.gnu.org/licenses/>.
+*/
+
+set(daemon_sources
+  command_parser_executor.cpp
+  command_server.cpp
+  daemon.cpp
+  executor.cpp
+  main.cpp
+  rpc_command_executor.cpp
+)
+
+set(daemon_headers)
+
+set(daemon_private_headers
+  command_parser_executor.h
+  command_server.h
+  core.h
+  daemon.h
+  executor.h
+  p2p.h
+  protocol.h
+  rpc.h
+  rpc_command_executor.h 
+
+  # cryptonote_protocol
+  ../cryptonote_protocol/cryptonote_protocol_defs.h
+  ../cryptonote_protocol/cryptonote_protocol_handler.h
+  ../cryptonote_protocol/cryptonote_protocol_handler.inl
+  ../cryptonote_protocol/cryptonote_protocol_handler_common.h
+
+  # p2p
+  ../p2p/net_node.h
+  ../p2p/net_node_common.h
+  ../p2p/net_peerlist.h
+  ../p2p/net_peerlist_boost_serialization.h
+  ../p2p/p2p_protocol_defs.h
+  ../p2p/stdafx.h)
+
+exohood_private_headers(daemon
+  ${daemon_private_headers})
+exohood_add_executable(daemon
+  ${daemon_sources}
+  ${daemon_headers}
+  ${daemon_private_headers})
+target_link_libraries(daemon
+  PRIVATE
+    rpc
+    blockchain_db
+    cryptonote_core
+    cncrypto
+    common
+    p2p
+    cryptonote_protocol
+    daemonizer
+    serialization
+    daemon_rpc_server
+    ${EPEE_READLINE}
+    version
+    ${Boost_CHRONO_LIBRARY}
+    ${Boost_FILESYSTEM_LIBRARY}
+    ${Boost_PROGRAM_OPTIONS_LIBRARY}
+    ${Boost_REGEX_LIBRARY}
+    ${Boost_SYSTEM_LIBRARY}
+    ${CMAKE_THREAD_LIBS_INIT}
+    ${ZMQ_LIB}
+    ${GNU_READLINE_LIBRARY}
+    ${EXTRA_LIBRARIES}
+    ${Blocks})
+set_property(TARGET daemon
+  PROPERTY
+    OUTPUT_NAME "exohood")
+install(TARGETS daemon DESTINATION bin)
