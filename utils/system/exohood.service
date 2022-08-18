@@ -1,0 +1,17 @@
+[Unit]
+Description=Exohood Full Node
+After=network.target
+
+[Service]
+User=exohood
+Group=exohood
+WorkingDirectory=~
+
+Type=forking
+PIDFile=/var/run/exohood.pid
+
+ExecStart=/usr/bin/exohood --config-file /etc/exohood.conf \
+    --detach --pidfile /var/run/exohood.pid
+
+[Install]
+WantedBy=multi-user.target
